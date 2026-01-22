@@ -15,35 +15,45 @@ const Home = () => {
  const [SortType, setSortType] = useState("none")
  const [SelectedCategory, setSelectedCategory] = useState("all")
 
-
-//searched products
- const searchedProducts = products.filter((p) =>
+// 1️⃣ Search filter
+let productsToRender = products.filter((p) =>
   p.title.toLowerCase().includes(search.toLowerCase())
 );
-//  filter data
- const filteredProducts = SelectedCategory === "all"? products : products.filter((e)=>
-  e.category === SelectedCategory
- );
+
+// 2️⃣ Category filter
+if (SelectedCategory !== "all") {
+  productsToRender = productsToRender.filter(
+    (p) => p.category === SelectedCategory
+  );
+}
+
+// 3️⃣ Sorting
+if (SortType === "low") {
+  productsToRender = [...productsToRender].sort(
+    (a, b) => a.price - b.price
+  );
+} else if (SortType === "high") {
+  productsToRender = [...productsToRender].sort(
+    (a, b) => b.price - a.price
+  );
+}
+
+
 
 //  categories
-const cat =  searchedProducts.reduce((acc,items)=>{
-   const existing = acc.find(el => el.category === items.category);
+const cat = products.reduce((acc, item) => {
+  const existing = acc.find(el => el.category === item.category);
 
   if (existing) {
     existing.count += 1;
   } else {
-    acc.push({ category: items.category, count: 1 });
-  } 
+    acc.push({ category: item.category, count: 1 });
+  }
   return acc;
- },[])
+}, []);
 
-//sort data
- let productsToRender = searchedProducts;
-if (SortType === "low") {
-  productsToRender = [...searchedProducts].sort((a, b) => a.price - b.price);
-} else if (SortType === "high") {
-  productsToRender = [...searchedProducts].sort((a, b) => b.price - a.price);
-}
+
+
  
 
 //  loading
