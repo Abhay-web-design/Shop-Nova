@@ -5,7 +5,7 @@ The project focuses on UI/UX, smooth animations, clean structure, and scalable a
 
 🚀 Live Preview
 
-
+  https://shop-nova.netlify.app/
 
 📌 Project Status
 
