@@ -102,7 +102,7 @@ src/
 
 🛠️ Installation & Setup
 # Clone the repository
-git clone https://github.com/your-username/ShopNova.git
+git clone https://github.com/Abhay-web-design/Shop-Nova
 
 # Navigate to project folder
 -- cd ShopNova
