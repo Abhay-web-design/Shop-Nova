@@ -15,24 +15,24 @@ The project focuses on UI/UX, smooth animations, clean structure, and scalable a
 
 🎯 Project Goals
 
-Build a full-fledged frontend e-commerce UI
+- Build a full-fledged frontend e-commerce UI
 
-Focus on clean design, responsiveness, and animations
+- Focus on clean design, responsiveness, and animations
 
-Follow a step-by-step product flow (Intro → Home → Wishlist → Details)
+- Follow a step-by-step product flow (Intro → Home → Wishlist → Details)
 
-Prepare a solid base for advanced features in future projects
+- Prepare a solid base for advanced features in future projects
 
 🧱 Tech Stack
-Technology	Usage
-React.js	UI & Component-based architecture
-React Router DOM	Page navigation
-Tailwind CSS	Styling & responsiveness
-Context API	Global state management
-Axios	API data fetching
-Framer Motion	Animations
-DummyJSON API	Product data
-Remix Icons	Icons
+Technology	          Usage
+React.js            UI & Component-based architecture
+React Router        DOM	Page navigation
+Tailwind CSS	      Styling & responsiveness
+Context API	         Global state management
+Axios	API            data fetching
+Framer               Motion	Animations
+DummyJSON API       	Product data
+Remix Icons	          Icons
 
 🗂️ Folder Structure
 src/
@@ -56,88 +56,88 @@ src/
 ✨ Features Implemented
 🔹 Intro Screen
 
-Animated brand intro using Framer Motion
+- Animated brand intro using Framer Motion
 
-Auto-redirect to Home page
+- Auto-redirect to Home page
 
-Brand logo & tagline
+- Brand logo & tagline
 
 🔹 Home Page
 
-Product listing from API
+- Product listing from API
 
-Category-based filtering
+- Category-based filtering
 
-Price sorting (Low → High, High → Low)
+- Price sorting (Low → High, High → Low)
 
-Responsive grid layout
+- Responsive grid layout
 
-Clean UI with Tailwind CSS
+- Clean UI with Tailwind CSS
 
 🔹 Wishlist Page
 
-Wishlist UI layout
+- Wishlist UI layout
 
-Saved products concept
+- Saved products concept
 
-Clickable product cards (future-ready)
+- Clickable product cards (future-ready)
 
 🔹 UI & UX
 
-Fully responsive (mobile, tablet, desktop)
+- Fully responsive (mobile, tablet, desktop)
 
-Consistent ShopNova theme
+- Consistent ShopNova theme
 
-Subtle animations
+- Subtle animations
 
-Reusable components
+- Reusable components
 
 🎨 Design Theme
 
-Primary Colors: Orange → Purple gradient
+- Primary Colors: Orange → Purple gradient
 
-Style: Clean, modern, minimal
+- Style: Clean, modern, minimal
 
-Focus: Readability & smooth user experience
+- Focus: Readability & smooth user experience
 
 🛠️ Installation & Setup
 # Clone the repository
 git clone https://github.com/your-username/ShopNova.git
 
 # Navigate to project folder
-cd ShopNova
+-- cd ShopNova
 
 # Install dependencies
-npm install
+-- npm install
 
 # Run development server
-npm run dev
+ -- npm run dev
 
 📈 Future Improvements (Planned)
 
-Product Detail Page
+- Product Detail Page
 
-Wishlist state management using Context
+- Wishlist state management using Context
 
-Cart page
+- Cart page
 
-Improved animations & transitions
+- Improved animations & transitions
 
-Skeleton loaders
+- Skeleton loaders
 
-Dark / Light mode (in next project)
+- Dark / Light mode (in next project)
 
 🧠 Learning Outcomes
 
-Real-world React project structure
+- Real-world React project structure
 
-Context API usage
+- Context API usage
 
-Tailwind CSS best practices
+- Tailwind CSS best practices
 
-Component reusability
+- Component reusability
 
-UI-first product thinking
+- UI-first product thinking
 
 👤 Author
 
@@ -146,10 +146,10 @@ Frontend Developer 🚀
 
 ⭐ Acknowledgements
 
-DummyJSON
+- DummyJSON
 
-Tailwind CSS
+- Tailwind CSS
 
-Framer Motion
+- Framer Motion
 
-React Community
+- React Community
