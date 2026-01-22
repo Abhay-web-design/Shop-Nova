@@ -1,16 +1,155 @@
-# React + Vite
+🛍️ ShopNova – Modern E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ShopNova is a modern, responsive e-commerce frontend built using React, Tailwind CSS, and Context API.
+The project focuses on UI/UX, smooth animations, clean structure, and scalable architecture — making it a strong frontend portfolio project.
 
-Currently, two official plugins are available:
+🚀 Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📌 Project Status
 
-## Expanding the ESLint configuration
+🟢 Frontend (In Progress / Phase 1 Complete)
+🔒 Authentication: Not included (by design)
+📦 Backend: Dummy API (dummyjson.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎯 Project Goals
+
+- Build a full-fledged frontend e-commerce UI
+
+- Focus on clean design, responsiveness, and animations
+
+- Follow a step-by-step product flow (Intro → Home → Wishlist → Details)
+
+- Prepare a solid base for advanced features in future projects
+
+🧱 Tech Stack
+Technology	          Usage
+React.js            UI & Component-based architecture
+React Router        DOM	Page navigation
+Tailwind CSS	      Styling & responsiveness
+Context API	         Global state management
+Axios	API            data fetching
+Framer               Motion	Animations
+DummyJSON API       	Product data
+Remix Icons	          Icons
+
+🗂️ Folder Structure
+src/
+│
+├── assets/          # logo
+├── components/
+│   ├── navbar/      # Navbar component
+│   └── UI/          # Reusable UI components (Card, Sort, etc.)
+│
+├── context/
+│   └── AppDataContext.jsx   # Global product data
+│
+├── pages/
+│   ├── Intro.jsx
+│   ├── Home.jsx
+│   └── Wishlist.jsx
+│
+├── App.jsx
+└── main.jsx
+
+✨ Features Implemented
+🔹 Intro Screen
+
+- Animated brand intro using Framer Motion
+
+- Auto-redirect to Home page
+
+- Brand logo & tagline
+
+🔹 Home Page
+
+- Product listing from API
+
+- Category-based filtering
+
+- Price sorting (Low → High, High → Low)
+
+- Responsive grid layout
+
+- Clean UI with Tailwind CSS
+
+🔹 Wishlist Page
+
+- Wishlist UI layout
+
+- Saved products concept
+
+- Clickable product cards (future-ready)
+
+🔹 UI & UX
+
+- Fully responsive (mobile, tablet, desktop)
+
+- Consistent ShopNova theme
+
+- Subtle animations
+
+- Reusable components
+
+🎨 Design Theme
+
+- Primary Colors: Orange → Purple gradient
+
+- Style: Clean, modern, minimal
+
+- Focus: Readability & smooth user experience
+
+🛠️ Installation & Setup
+# Clone the repository
+git clone https://github.com/Abhay-web-design/Shop-Nova
+
+# Navigate to project folder
+-- cd ShopNova
+
+# Install dependencies
+-- npm install
+
+# Run development server
+ -- npm run dev
+
+📈 Future Improvements (Planned)
+
+- Product Detail Page
+
+- Wishlist state management using Context
+
+- Cart page
+
+- Improved animations & transitions
+
+- Skeleton loaders
+
+- Dark / Light mode (in next project)
+
+🧠 Learning Outcomes
+
+- Real-world React project structure
+
+- Context API usage
+
+- Tailwind CSS best practices
+
+- Component reusability
+
+- UI-first product thinking
+
+👤 Author
+
+Abhay
+Frontend Developer 🚀
+
+⭐ Acknowledgements
+
+- DummyJSON
+
+- Tailwind CSS
+
+- Framer Motion
+
+- React Community
